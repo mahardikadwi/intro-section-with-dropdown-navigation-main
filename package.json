@@ -1,0 +1,14 @@
+{
+  "name": "intro-section-with-dropdown-navigation-main",
+  "version": "1.0.0",
+  "description": "Front End Mentor Project",
+  "main": "script.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i styles/style.css -o styles/output.css --watch"
+  },
+  "author": "Dwi Panca Mahardhika",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
