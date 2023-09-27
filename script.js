@@ -47,12 +47,10 @@ hamburgerBtn.addEventListener('click', () => {
     mobileNav.classList.remove('translate-x-0');
     mobileNav.classList.add('translate-x-full');
     menuIcons.src = 'images/icon-menu.svg';
-    menuIcons.classList.remove('fixed');
   } else {
     mobileNav.classList.remove('translate-x-full');
     mobileNav.classList.add('translate-x-0');
     menuIcons.src = 'images/icon-close-menu.svg';
-    menuIcons.classList.add('fixed');
   }
   isOpen = !isOpen;
 });
